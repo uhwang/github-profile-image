@@ -23,7 +23,7 @@ dev = vgl.DeviceIMG("gitsym.png", fmm.get_gbbox(), 150)
 dev.set_device(frm)
 
 for i in range(ndeg):
-    dev.polygon(x,y,lcol=vgl.BLACK,lthk=0.002,fcol=vgl.YELLOW)    
+    dev.polygon(x,y,lcol=vgl.crimson,lthk=0.007,fcol=vgl.YELLOW)    
     x, y = vgl.util.rad_rotation_points(x,y,dpi)
     
 dev.close()

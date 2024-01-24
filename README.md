@@ -17,7 +17,6 @@ dpi = 2*3.14159265358979/ndeg
 fmm = vgl.FrameManager()
 frm = fmm.create(0,0,3,3, vgl.Data(-1.1,1.1,-1.1,1.1))
 dev = vgl.DeviceIMG("gitsym.png", fmm.get_gbbox(), 150)
-
 dev.set_device(frm)
 
 for i in range(ndeg):

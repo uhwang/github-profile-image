@@ -11,8 +11,6 @@ import libvgl as vgl
 import naca45 as nc
 
 x, y = nc.get_naca45("4518", 50, nc.spc_cos)
-#vgl.util.translate_points(x, y, -1, 0)
-
 ndeg = 20
 dpi = 2*3.14159265358979/ndeg
 

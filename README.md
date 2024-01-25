@@ -1,11 +1,8 @@
 # github-profile-image
 ```Python
 '''
-
 gitsym.py
-
 1/24/2024
-
 '''
 import libvgl as vgl
 import naca45 as nc
@@ -21,8 +18,7 @@ dev.set_device(frm)
 
 for i in range(ndeg):
     dev.polygon(x,y,lcol=vgl.crimson,lthk=0.007,fcol=vgl.YELLOW)    
-    x, y = vgl.util.rad_rotation_points(x,y,dpi)
-    
+    vgl.util.rad_rotation_points(x,y,dpi)
 dev.close()
 ```
 ![gitsym](https://github.com/uhwang/github-profile-image/assets/43251090/43fb1673-55e9-4e81-8edb-27d27a5fb8f9)

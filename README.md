@@ -11,7 +11,7 @@ import libvgl as vgl
 import naca45 as nc
 
 x, y = nc.get_naca45("4518", 50, nc.spc_cos)
-ndeg = 20
+ndeg = 8
 dpi = 2*3.14159265358979/ndeg
 
 fmm = vgl.FrameManager()
